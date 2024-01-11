@@ -50,6 +50,18 @@ html_css_files = [
     'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
     "css/custom.css?10", # Increment the number at the end when the file changes to bust the cache.
 ]
+html_js_files = [
+    "js/custom.js?7", # Increment the number at the end when the file changes to bust the cache.
+]
+html_theme_options = {
+    # if we have a html_logo below, this shows /only/ the logo with no title text
+    "logo_only": True,
+    # Collapse navigation (False makes it tree-like)
+    "collapse_navigation": False,
+    # Hide the documentation version name/number under the logo
+    "display_version": False,
+}
+html_logo = "img/xpylr5.png"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
