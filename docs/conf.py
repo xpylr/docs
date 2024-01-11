@@ -61,7 +61,7 @@ html_theme_options = {
     # Hide the documentation version name/number under the logo
     "display_version": False,
 }
-html_logo = "img/xpylr5.png"
+html_logo = "img/xpylr6.png"
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
