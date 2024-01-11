@@ -28,6 +28,5 @@ jobs:
       shell: bash
 
 permissions:
-  actions: write
   contents: write
   pages: write
