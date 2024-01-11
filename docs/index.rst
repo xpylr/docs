@@ -9,10 +9,8 @@ Welcome to xpylr!
 test 1
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Contents:
    
    topic1/index
    topic2/index
-
-   autodoc
