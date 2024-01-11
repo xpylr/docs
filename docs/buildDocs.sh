@@ -118,10 +118,10 @@ cat > index.html <<EOF
 <html>
    <head>
       <title>xpylr</title>
-      <meta http-equiv = "refresh" content="0; url='/${REPO_NAME}/en/main/'" />
+      <meta http-equiv = "refresh" content="0; url='/en/main/'" />
    </head>
    <body>
-      <p>Please wait while you're redirected to our <a href="/${REPO_NAME}/en/main/">documentation</a>.</p>
+      <p>Please wait while you're redirected to our <a href="/en/main/">documentation</a>.</p>
    </body>
 </html>
 EOF
@@ -142,6 +142,11 @@ EOF
  
 # copy the resulting html pages built from sphinx above to our new git repo
 git add .
+
+# add custom domain CNAME
+cat > CNAME <<EOF
+xpylr.org
+EOF
  
 # commit all the new files
 msg="Updating Docs for commit ${GITHUB_SHA} made on `date -d"@${SOURCE_DATE_EPOCH}" --iso-8601=seconds` from ${GITHUB_REF} by ${GITHUB_ACTOR}"
