@@ -47,10 +47,10 @@
     --navbar-expand-hover-color: #c3e3ff;
     --navbar-expand-active-color: #f1f9ff;
     --navbar-dimmed-color: #a3c4e1;
-    --navbar-heading-color: #ff7381;
-    --navbar-scrollbar-color: #d45a66;
-    --navbar-scrollbar-hover-color: #b14550;
-    --navbar-scrollbar-active-color: #72383e;
+    --navbar-heading-color: #6ab0de;
+    --navbar-scrollbar-color: #6ab0de;
+    --navbar-scrollbar-hover-color: #6ab0de;
+    --navbar-scrollbar-active-color: #105078;
     --navbar-scrollbar-background: #131e2b;
 
     --link-color: #2980b9;
