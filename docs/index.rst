@@ -6,16 +6,6 @@
 Welcome to xpylr!
 ======================================
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+This is a test message.
 
-   autodoc
-
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Just testing the site.
