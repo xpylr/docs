@@ -46,7 +46,9 @@ extensions = [
 ]
 
 html_css_files = [
-    'css/darktheme.css',
+    'css/algolia.css',
+    'https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css',
+    "css/custom.css?10", # Increment the number at the end when the file changes to bust the cache.
 ]
 
 # Add any paths that contain templates here, relative to this directory.
