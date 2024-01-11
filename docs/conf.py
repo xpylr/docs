@@ -45,6 +45,10 @@ extensions = [
     'sphinx.ext.githubpages',
 ]
 
+html_css_files = [
+    'css/darktheme.css',
+]
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
