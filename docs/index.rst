@@ -6,11 +6,12 @@
 Welcome to xpylr!
 ======================================
 
-test 1
+xpylr is a software transformation framework.
 
 .. toctree::
    :maxdepth: 1
    :caption: Contents:
    
+   index
    topic1/index
    topic2/index
