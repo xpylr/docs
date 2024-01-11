@@ -3,14 +3,17 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to helloWorld's documentation!
+Welcome to xplr!
 ======================================
 
 test 1
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Contents:
+   topic1/index
+   topic2/index
 
    autodoc
 
