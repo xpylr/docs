@@ -139,14 +139,14 @@ For more information on how this documentation is built using Sphinx, Read the D
  
  * https://tech.michaelaltfield.net/2020/07/18/sphinx-rtd-github-pages-1
 EOF
- 
-# copy the resulting html pages built from sphinx above to our new git repo
-git add .
 
 # add custom domain CNAME
 cat > CNAME <<EOF
 xpylr.org
 EOF
+ 
+# copy the resulting html pages built from sphinx above to our new git repo
+git add .
  
 # commit all the new files
 msg="Updating Docs for commit ${GITHUB_SHA} made on `date -d"@${SOURCE_DATE_EPOCH}" --iso-8601=seconds` from ${GITHUB_REF} by ${GITHUB_ACTOR}"
